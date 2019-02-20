@@ -1,37 +1,30 @@
 {
-  "useTaobaoRegistry": false,
-  "latestVersion": "3.4.1",
-  "lastChecked": 1550677801946,
-  "presets": {
-    "xvue": {
-      "useConfigFiles": true,
-      "plugins": {
-        "@vue/cli-plugin-babel": {},
-        "@vue/cli-plugin-pwa": {},
-        "@vue/cli-plugin-eslint": {
-          "config": "base",
-          "lintOn": [
-            "save"
-          ]
-        },
-        "@vue/cli-plugin-unit-jest": {},
-        "@vue/cli-plugin-e2e-nightwatch": {},
-        "vue-cli-plugin-vuetify": {
-          "preset": "configure",
-          "replaceComponents": true,
-          "useTheme": false,
-          "useCustomProperties": false,
-          "iconFont": "md",
-          "installFonts": true,
-          "useAlaCarte": true,
-          "usePolyfill": true,
-          "locale": "en"
-        }
-      },
-      "router": true,
-      "routerHistoryMode": false,
-      "vuex": true,
-      "cssPreprocessor": "stylus"
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-pwa": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "base",
+      "lintOn": [
+        "save"
+      ]
+    },
+    "@vue/cli-plugin-unit-jest": {},
+    "@vue/cli-plugin-e2e-nightwatch": {},
+    "vue-cli-plugin-vuetify": {
+      "preset": "configure",
+      "replaceComponents": true,
+      "useTheme": false,
+      "useCustomProperties": false,
+      "iconFont": "md",
+      "installFonts": true,
+      "useAlaCarte": true,
+      "usePolyfill": true,
+      "locale": "en"
     }
-  }
+  },
+  "router": true,
+  "routerHistoryMode": false,
+  "vuex": true,
+  "cssPreprocessor": "stylus"
 }
