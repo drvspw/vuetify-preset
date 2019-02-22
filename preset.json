@@ -14,8 +14,8 @@
     "vue-cli-plugin-vuetify": {
       "preset": "configure",
       "replaceComponents": true,
-      "useTheme": false,
-      "useCustomProperties": false,
+      "useTheme": true,
+      "useCustomProperties": true,
       "iconFont": "md",
       "installFonts": true,
       "useAlaCarte": true,
